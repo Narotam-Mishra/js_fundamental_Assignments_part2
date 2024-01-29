@@ -1,0 +1,8 @@
+
+# In the example available in 'codeAssignment1.js' file,
+
+1).outerFunction takes a parameter (param) and declares a variable (outerVar) within its scope.
+2). It defines an innerFunction that can access both the parameter of outerFunction and the outerVariable declared within it.
+3). Finally, outerFunction returns the innerFunction.
+
+# When we call outerFunction('Hello'), it returns the innerFunction, and you store it in the variable outerFuncResult. Later, when you call outerFuncResult(), the innerFunction still has access to both the parameter and the outerVar variable even though outerFunction has finished executing. This is due to lexical scoping, which allows inner functions to "remember" the variables in their outer scope.
